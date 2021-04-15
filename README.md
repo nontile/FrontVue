@@ -49,5 +49,7 @@ http://localhost:8080/guide
 pages 폴더에 폴더 생성후 index.vue를 작성하면 nuxt에서 auto routing 처리
 
 .nuxt/router.js 확인
+
 | Nuxt.js
+
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
