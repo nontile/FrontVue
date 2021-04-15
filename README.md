@@ -33,23 +33,18 @@ nuxt.config.js
 ## 기본개발가이드
 
 1. 접속
-
-http://localhost:8080/guide
+   http://localhost:8080/guide
 
 2. 좌측상단의 좌칙메뉴 열기 스위치 On
 
 3. 필요한 component를 찾아서 사용한다.
 
-4. 서버기본주소는 http://localhost:9110 로 한다.
-
-수정은 .env.\* 확인
+4. 서버기본주소는 http://localhost:9110
+   수정은 .env.\* 확인
 
 5. 새로운 페이지 만들기
+   pages 폴더에 폴더 생성후 index.vue를 작성하면 nuxt에서 auto routing 처리
 
-pages 폴더에 폴더 생성후 index.vue를 작성하면 nuxt에서 auto routing 처리
+   .nuxt/router.js 확인
 
-.nuxt/router.js 확인
-
-| Nuxt.js
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+| For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
